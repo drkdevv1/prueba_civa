@@ -30,7 +30,7 @@ Configura la conexión en `application.properties`, no es necesario crear la db:
 
 ```properties
 # Configuración de la Base de Datos
-spring.datasource.url=jdbc:mysql://localhost:3306/civa_bus?useSSL=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+spring.datasource.url=jdbc:mysql://localhost:3306/prueba_civa_db?createDatabaseIfNotExist=true
 spring.datasource.username=root
 spring.datasource.password=tu_contraseña
 ```
